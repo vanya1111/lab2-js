@@ -1,0 +1,14 @@
+{
+  "name": "lab2-polybius-gronsfeld",
+  "version": "1.0.0",
+  "description": "Лабораторна робота 2: квадрат Полібія та шифр Гронсфельда (навчальна)",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": { "node": ">=20" },
+  "bin": { "ciphers2": "bin/ciphers2.js" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node scripts/demo.js",
+    "help": "node bin/ciphers2.js --help"
+  }
+}
